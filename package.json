@@ -1,0 +1,23 @@
+{
+  "name": "funmail",
+  "version": "1.0.0",
+  "description": "Send Fun Email",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Levi S Long",
+  "license": "ISC",
+  "dependencies": {
+    "email-templates": "^3.3.4",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "js-image-generator": "^1.0.2",
+    "nexmo": "^2.2.0",
+    "nodemailer": "^4.4.2",
+    "nodemon": "^1.14.12",
+    "pug": "^2.0.0-rc.4",
+    "random-quote": "0.0.1",
+    "random-words": "^1.0.0"
+  }
+}
