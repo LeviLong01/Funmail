@@ -12,16 +12,16 @@ setInterval(function() {
 	var transporter = nodemailer.createTransport({
 	  service: 'gmail',
 	  auth: {
-	    user: 'atasteofsimple@gmail.com',
-	    pass: 'fvovwlgbqnhqjlrw'
+	    user: 'xxx@gmail.com',
+	    pass: 'xxxxx'
 	  }
 	})
 
 	var sentence = randomWords({min: 8, max: 12}).join(" ");
 
 	var mailOptions = {
-	  from: 'atasteofsimple@gmail.com',
-	  to: 'levilong01@gmail.com',
+	  from: 'xxx@gmail.com',
+	  to: 'xxx@gmail.com',
 	  subject: 'This is the Sanity Test',
 	  text: "The simple test is compromised of indefinite segments.\nEach minute a new sentence will be produced. This is the subconcious of your mind.\n\n" + sentence,
 	 /* text: imgGen.generateImage(800, 600, 80, function(err,image) {
