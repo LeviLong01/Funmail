@@ -9,13 +9,15 @@
   "author": "Levi S Long",
   "license": "ISC",
   "dependencies": {
+    "app": "^0.1.0",
     "email-templates": "^3.3.4",
-    "express": "^4.16.2",
+    "express": "^4.16.3",
     "fs": "0.0.1-security",
     "js-image-generator": "^1.0.2",
     "nexmo": "^2.2.0",
-    "nodemailer": "^4.4.2",
+    "nodemailer": "^4.6.4",
     "nodemon": "^1.14.12",
+    "port": "^0.8.1",
     "pug": "^2.0.0-rc.4",
     "random-quote": "0.0.1",
     "random-words": "^1.0.0"

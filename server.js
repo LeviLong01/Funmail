@@ -12,18 +12,18 @@ setInterval(function() {
 	var transporter = nodemailer.createTransport({
 	  service: 'gmail',
 	  auth: {
-	    user: 'theaaronhobgoodtest@gmail.com',
-	    pass: 'lzudctgsermplnvd'
+	    user: 'atasteofsimple@gmail.com',
+	    pass: 'fvovwlgbqnhqjlrw'
 	  }
 	})
 
 	var sentence = randomWords({min: 8, max: 12}).join(" ");
 
 	var mailOptions = {
-	  from: 'theaaronhobgoodtest@gmail.com',
-	  to: 'levi_long@chs.net',
-	  subject: 'This is the Aaron Test',
-	  text: "The Aaron test is compromised of indefinite segments.\nEach minute a new sentence will be produced. This is the subconcious of Aaron's mind.\n\n" + sentence,
+	  from: 'atasteofsimple@gmail.com',
+	  to: 'levilong01@gmail.com',
+	  subject: 'This is the Sanity Test',
+	  text: "The simple test is compromised of indefinite segments.\nEach minute a new sentence will be produced. This is the subconcious of your mind.\n\n" + sentence,
 	 /* text: imgGen.generateImage(800, 600, 80, function(err,image) {
 	  	fs.writeFileSync('TheAaronTest.jpg', image.data)
 	  })*/
