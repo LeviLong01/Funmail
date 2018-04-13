@@ -1,0 +1,3 @@
+# Funmail
+
+Main = server.js
